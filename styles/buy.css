@@ -1,0 +1,138 @@
+body{
+    width: 100%;
+    margin:0;
+    padding:0;
+    font-family:"Lato",sans-serif;
+    font-size: 14px;
+    color:#444;
+    background-color: #FFFFFF;
+  }
+
+  .logo{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+  }
+  header{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vw;
+    margin-top: 2vh;
+  }
+  .header{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+  
+  }
+  
+  
+   .header_border{
+    padding-right: 15%;
+    border-right: 2px solid black;
+  
+  }
+  
+
+  .container{
+      margin-left: 10%;
+      margin-top: 5%;
+  }
+
+section{
+    display: flex;
+}
+.bag_buy{
+    display: flex;
+    flex-direction: column;
+}
+.bag_buy>img{
+    width: 100px;
+    height: 100px;
+}
+.display_flex{
+display: flex;
+align-items: baseline;
+justify-content: space-between;
+width: 60%;
+font-size: 15px;
+font-weight: bold;
+}
+
+.display_flex>img{
+    width: 60%;
+    height: 60%;
+
+}
+
+.main_bag{
+    margin-left: 10%;
+}
+
+.column{
+    display: flex;
+    margin-top: 10%;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid  black;
+    padding-bottom: 5%;
+}
+
+select{
+    margin-top: 2%;
+    margin-left: 40%;
+    border: none;
+    font-weight: bold;
+
+}
+
+.price{
+    font-size: 40px;
+    margin: 0;
+}
+.buy_title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 48px;
+    position: relative;
+  }
+
+  .add{
+    background: #E74C3C;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-top: 10%;
+    width: 80%;
+    font-size: 20px;
+  }
+
+.buy_description{
+    width: 100%;
+}
+ .buy_description>.onglet{
+     font-size: 36px;
+ }
+
+
+ .description{
+     display: flex;
+     width: 100%;
+     margin-right: 10%;
+
+    }
+
+    .size{
+        height: 50%;
+        margin-top: 5%;
+    }
+
+.text{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+}
