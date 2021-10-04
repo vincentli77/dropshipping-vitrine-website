@@ -32,7 +32,8 @@ body{
   
    .header_border{
     padding-right: 15%;
-    border-right: 2px solid black;
+    font-weight: bold;
+
   
   }
   
@@ -102,7 +103,7 @@ select{
 
   .add{
     background: #E74C3C;
-    border-radius: 20px;
+    border-radius: 5px;
     border: none;
     padding: 10px;
     color: white;
